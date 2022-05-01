@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Wrapper from "./wrapper/Wrapper";
+import Screen from "./screen/Screen";
+import Buttonbox from "./button box/Buttonbox";
 
+//put button inside buttonbox
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     <Wrapper>
+     <Screen value="0"/>
+     <Buttonbox></Buttonbox>
+      </Wrapper>
     </div>
   );
 }
