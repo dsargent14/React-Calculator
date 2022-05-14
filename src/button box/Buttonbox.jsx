@@ -2,9 +2,9 @@ import "./buttonbox.css"
 
 const Buttonbox = ({children}) => {
   return (
-    <div className='buttonBox'>{children}
+    <div className='buttonBox'>{children}</div>
 
-    </div>
+    
   )
 }
 
